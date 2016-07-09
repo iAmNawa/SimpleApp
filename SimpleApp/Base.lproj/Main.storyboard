@@ -17,13 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FV2-zj-gOJ">
-                                <rect key="frame" x="137" y="275" width="46" height="18"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GzP-01-NDi"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap The Buttons Below Please" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuj-sG-h22">
                                 <rect key="frame" x="40" y="59" width="232" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -31,8 +24,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fV-9J-8Ga">
-                                <rect key="frame" x="133" y="340" width="55" height="30"/>
-                                <state key="normal" title="Button2">
+                                <rect key="frame" x="130" y="269" width="60" height="30"/>
+                                <state key="normal" title="YELLOW">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -40,12 +33,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwK-9u-8If">
-                                <rect key="frame" x="133" y="419" width="55" height="30"/>
-                                <state key="normal" title="Button3">
-                                    <color key="titleColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="136" y="345" width="49" height="30"/>
+                                <state key="normal" title="GREEN">
+                                    <color key="titleColor" red="0.059254221618175507" green="0.043555937707424164" blue="0.014329937286674976" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonTapped3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LO3-An-UJY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FV2-zj-gOJ">
+                                <rect key="frame" x="139" y="186" width="46" height="30"/>
+                                <state key="normal" title="RED">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GzP-01-NDi"/>
                                 </connections>
                             </button>
                         </subviews>
