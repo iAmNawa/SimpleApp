@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //Lets handle the button 
+    @IBAction func buttonTapped(sender: AnyObject) {
+        print("Ouch")
+        
+    }
+    
+    
 
+    
 }
-
