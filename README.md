@@ -1,6 +1,6 @@
 # SimpleApp
 
-|Instructions to open this project                                                                                     |
+|Instructions to open this project (clicking the button to change background)                                          |
 |----------------------------------------------------------------------------------------------------------------------|
 |1)Download and Install XCode from the appstore(only available on apple appstore)                                      |
 |2)Clone SimpleApps to your computer                                                                                   |
